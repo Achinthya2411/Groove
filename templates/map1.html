@@ -1,0 +1,33 @@
+{% extends "layout.html" %} {% block content %}
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-10">
+      <div id="map"></div>
+    </div>
+    <div class="col-md-2">
+      <!-- <a class="btn fas fa-3x fa-forward" href="{{ url_for('map2') }}"></a> -->
+      <!-- <div class="card">
+        <p>
+          You are matched with
+          <br />
+        </p>
+      </div> -->
+    </div>
+
+    <form action="/map2" id="coords-form" method="POST">
+      <label for="scoords"
+        >Starting Coordinates
+        <input type="text" name="scoords" id="" value="" />
+      </label>
+      <label for="ecoords"
+        >Ending Coordinates
+        <input type="text" name="ecoords" id="" value="" />
+      </label>
+      <div class="form-group btn btn-primary btn1">
+        <button type="submit" id="submit">Start ride</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock content %}
