@@ -67,12 +67,3 @@ Moderators would be provided with extra benefits and rewards.
 3) Choice of cab service: In the future we’d like to have a cab service of our own rather than having to redirect users to external cab service providers. 
 
 4) Chat Service: We would like to add a chat service in the app through which pool members can coordinate rather than having to disclose their mobile numbers in the initial stage.
-
-
-
-
-
-
-
-
-# Groove
