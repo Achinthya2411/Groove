@@ -19,7 +19,6 @@ Python (for Natural Language Processing and ML)
 Flask (Web backend)
 HTML + CSS (Web frontend)
 MYSQL(Database)
-Heroku (Deployment)
 # Implementation
 Firstly while registering, the user will have to answer a short questionnaire  which will help us identify their interests.
 
